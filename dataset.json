@@ -1,0 +1,27 @@
+{"intents":[
+		{	
+			"tag": "greeting",
+			"patterns":["Hi","Selamat Siang","Selamat Malam","Salam"],
+			"responses":["Hello!","Hai, Ada yang bisa saya bantu?", "Siap!"],
+			"context_set":""
+		},
+		{
+			"tag": "name",
+			"patterns":["Namamu siapa", "Kamu siapa", "Who are you"],
+			"responses":["Hai, aku Seta", "Hi, Namaku Seta","Aku Seta"],
+			"context_set":""
+		},
+		{
+			"tag":"do",
+			"patterns":["Kamu ngapain", "Kamu lagi apa", "apa yang kamu lakukan"],
+			"responses":["aku lagi bermain", "aku lagi belajar","aku lagi ngoding"],
+			"context_set":""
+		},
+		{
+			"tag":"age",
+			"patterns":["Umur berapa","berapa tahun"],
+			"responses":["umur 18 tahun","Lahir tahun 2000"],
+			"context_set":""
+		}
+	]
+}
