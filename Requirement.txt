@@ -1,0 +1,4 @@
+nltk
+import numpy 
+tflearn
+tensorflow
